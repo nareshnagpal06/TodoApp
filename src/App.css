@@ -1,0 +1,69 @@
+body{
+  text-align: center;
+  color: #fff;
+  /* background-color:rosybrown; */
+  background: #d3d3d3; 
+  font-family: -apple-system, BlinkMacSystemFont, "Neue Haas Grotesk Text Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
+  text-shadow: 0 1px 5px rgba(0,0,0,.1);
+
+
+
+}
+
+input {
+  width: 20%;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 15px;
+  border: none;
+  font-size: 12px;
+  text-align: center;
+  
+}
+
+input:focus{
+  outline: none;
+}
+
+.addButton
+{
+  padding: 10px;
+  border-radius: 35px;
+  border:none;
+  background-color : #bada;
+  /* color: #a1d66ce8; */
+  font-weight:bold;
+  /* background: none; */
+  /* font-size: xx-large; */
+ 
+}
+
+
+.todo
+{
+  background: #2a2a2a;
+  color: white;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px auto;
+  height: 45px;
+  border-radius: 30px;
+  padding: 0 30px;
+}
+
+.deleteBtn{
+padding: 8px;
+border-radius: 10px;
+border:none;
+background-color: rgb(226, 85, 85);
+font-weight: 600;
+color: white;
+}
+
+
+
+
+
